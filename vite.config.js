@@ -1,9 +1,7 @@
-import { defineConfig } from 'vite';
-import solidPlugin from 'vite-plugin-solid';
+import { defineConfig } from "vite"
+import solid from "vite-plugin-solid"
 
 export default defineConfig({
-  plugins: [solidPlugin()],
-  build: {
-    target: 'esnext',
-  },
-});
+  plugins: [solid()],
+  base: "/indigo/",
+})
