@@ -78,7 +78,7 @@ export default function SearchView() {
                   <div>
                     <div class="guild-card-name">{g.name}</div>
                     <div class="guild-card-meta">
-                      <UsersIcon size={12} style={{ 'vertical-align': '-2px' }} /> {g.memberIds?.length ?? 0} members
+                      <UsersIcon size={12} style={{ 'vertical-align': '-2px' }} /> {JSON.parse(g.memberIds)?.length ?? 0} members
                     </div>
                   </div>
                 </div>
