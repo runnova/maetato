@@ -786,15 +786,13 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: var(--ink);
+  background: var(--paper);
 }
 
 .auth-card {
   width: 380px;
-  background: var(--paper-2);
   border-radius: 18px;
   padding: 34px;
-  box-shadow: 0 30px 80px rgba(0, 0, 0, .4);
 }
 
 .auth-wordmark {
