@@ -1,6 +1,6 @@
 export const API_BASE = localStorage.getItem('apiBase') || 'https://dev.maelink.net';
 export const API_WS =  localStorage.getItem('apiBase') || 'wss://dev.maelink.net/socket';
-export const UPLOADS_BASE = localStorage.getItem('uploadsBase') || 'http://localhost:7002';
+export const UPLOADS_BASE = localStorage.getItem('uploadsBase') || 'http://dev.maelink.net/uploads';
 
 function getAccessToken() {
   return localStorage.getItem('accessToken');
